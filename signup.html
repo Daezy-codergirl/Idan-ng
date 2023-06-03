@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/idan.png"
+      style="width: 16px; height: 16px"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>www.idan.com.ng</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    `
+    <section class="header">
+      <div class="logo">
+        <a href="index.html"><img src="images/idan.png" /></a>
+      </div>
+
+      <div>
+        <ul id="navbar">
+          <div class="close"><i class="fa fa-times"></i></div>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a class="active" href="signup.html">Sign up</a></li>
+      
+
+          <a href="cart.html"
+            ><img
+              class="shopping"
+              src="images/shopping logo.png "
+              style="width: 30px; height: 30px; margin-left: 30px;"
+          /></a>
+        </ul>
+      </div>
+      <div class="mobile">
+        <a href="cart.html"
+          ><img
+            class="shopping"
+            src="images/shopping logo.png "
+            style="width: 30px; height: 30px; margin-left: 30px;"
+        /></a>
+        <div class="menu"><i id="bar" class="fa fa-bars"></i></div>
+      </div>
+    </section>
+
+    <section id="signup">
+      <div class="signupcontainer">
+        <div class="signup-content">
+          <h1>Create an Account</h1>
+          <form action="#">
+            <div class="field input-field">
+              <input
+                type="email address"
+                placeholder="Enter your email" class="placeholder"
+                required
+              />
+            </div>
+            <div class="field input-field">
+              <input type="password" placeholder="Type your password" class="placeholder" required />
+            </div>
+            <div class="field input-field">
+              <input
+                type="password" 
+                placeholder="Retype your password" class="placeholder"
+                required
+              />
+            </div>
+            <div class="button-field">
+              <button>Create Account</button>
+            </div>
+            <div class="form-link">
+             Already have an account? <a href="login.html">Login</a>
+            </div>
+            <div class="line-container">
+             <hr class="line">
+             <span class="text">or</span>
+             <hr class="line">
+            </div>
+            <div class="field input-field">
+              <i class="fa fa-facebook facebook" aria-hidden="true"></i>
+              <input
+                type="" 
+                placeholder="Signup with your facebook account" class="center-placeholder" 
+              /> 
+            </div>
+            <div class="field input-field">
+              <i class="fa fa-google google" aria-hidden="true"></i>
+              <input
+                type=""
+                placeholder="Signup with your Google account" class="center-placeholder"
+              />
+            </div>
+            <div class="check-box">
+              <input type="checkbox"  id="check"><h6>By signing up, I agree to the <a href="#"> terms & conditions</a></h6>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <a href="index.html"><img class="foot" src="images/idan.png" /></a>
+      <div class="col">
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> 256, Central Business District, Marina,
+          Lagos.
+        </p>
+        <p><strong>Phone:</strong> +234 803 3453 223.</p>
+        <p><strong>Hours:</strong> 9am - 5pm, Mon - Sun.</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-pinterest"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About Us</a>
+        <a href="shop.html">Delivery</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="signup.html">Sign In</a>
+        <a href="cart.html">View Cart</a>
+        <a href="#">Wish List</a>
+        <a href="ship.html">Track My Orders</a>
+        <a href="#">Help</a>
+      </div>
+      <div class=".col install">
+        <h4>Install App</h4>
+        <p>From iOS or Playstore</p>
+        <div class="row">
+          <img src="images/apple store.png" />
+          <img src="images/apple store.png" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img class="payment" src="images/payment2.png" />
+      </div>
+      <div class="copyright">
+        <hr>
+        <p>© 2023. Made with <i class="fa fa-heart"></i> by Adaeze</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
